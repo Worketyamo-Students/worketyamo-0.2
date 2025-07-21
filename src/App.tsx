@@ -1,15 +1,13 @@
-import Header from "./components/Header";
-
+import Connection from "./components/connection";
 function App() {
   return (
     <>
-      <Header />
+      <Connection />
     </>
   );
 }
 
 export default App;
-
 //  <Btn
 
 //         text="Creer le compte"
