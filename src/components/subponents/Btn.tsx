@@ -19,7 +19,7 @@ const Btn: React.FC<propsTypes> = ({
 }) => {
   return (
     <button
-      className={`flex rounded-md justify-center items-center ${border} ${bgcolor} ${color} ${hight} ${width} ${hight} `}
+      className={`flex gap-2 rounded-md justify-center items-center ${border} ${bgcolor} ${color} ${hight} ${width} ${hight} `}
     >
       {children}
       <h3 className="${color}">{text}</h3>

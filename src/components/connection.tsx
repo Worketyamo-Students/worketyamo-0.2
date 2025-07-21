@@ -3,6 +3,7 @@ import Header from "./Header";
 import FormInput from "./subponents/FormInput";
 import Progression from "./subponents/Progression";
 import Divider from "./subponents/Divider";
+import Btn from "./subponents/Btn";
 function Connection() {
   return (
     <div className=" pt-[82px] px-[33px] pb[41px]">
@@ -24,11 +25,53 @@ function Connection() {
         <Progression color="bg-gray-400" />
         <Progression color="bg-gray-400" />
       </div>
-      <div className="pt-5 pr-1.5">
+      <div className="pt-7 pr-1.5">
         <Divider />
+      </div>
+      <div className="pt-7 pr-1.5 px-4">
+        <Btn
+          text="Github"
+          border="border-1 border-gray-200"
+          width="w-[322px]"
+          hight="h-[36px]"
+          color="text-black font-medium"
+        >
+          <img src="/github-logo.svg" alt="git hub logo" />
+        </Btn>
+
+        <Btn
+          text="Google"
+          border="border-1 mt-3 border-gray-200"
+          width="w-[322px]"
+          hight="h-[36px]"
+          color="text-black font-medium"
+        >
+          <img src="/google.svg" alt="google logo" />
+        </Btn>
+
+        <br />
+        <Btn
+          text="Creer le compte"
+          border="border-1  mt-2 border-gray-200"
+          width="w-[322px]"
+          hight="h-[36px]"
+          color="text-white font-medium"
+          bgcolor="bg-[#00539C]"
+        />
       </div>
     </div>
   );
 }
 
 export default Connection;
+
+{
+  /* <Btn
+          text="Creer le compte"
+          border="border-1 border-gray-200"
+          width="w-[300px]"
+          hight="h-[30px]"
+          color="text-white font-medium"
+          bgcolor="bg-[#00539C]"
+        /> */
+}
