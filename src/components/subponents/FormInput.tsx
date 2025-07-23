@@ -11,7 +11,7 @@ const FormInput: React.FC<Pros> = ({ label, placeholder, type }) => {
       <input
         type={type}
         placeholder={placeholder}
-        className="  rounded-md  p-3 w-[335px] h-10 border-1 border-gray-400 outline-none"
+        className="  rounded-md  p-3 w-100/100 h-10 border-1 border-gray-400 outline-none"
       ></input>
     </div>
   );
