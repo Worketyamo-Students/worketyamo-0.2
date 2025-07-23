@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./subponents/Footer";
-import Header from "./Header";
+import Header from "./subponents/Header";
 import FormInput from "./subponents/FormInput";
 import { Link } from "react-router";
 import Btn from "./subponents/Btn";
@@ -24,7 +24,7 @@ const Invitation = () => {
         <FormInput placeholder="Numero whatsapp" type="text" />
       </div>
       <div className="pt-43pr-1.5 px-4">
-        <Link to="/invitation">
+        <Link to="/onboarding">
           <Btn
             text="Creer le compte"
             border="border-1  mt-10 border-gray-200"

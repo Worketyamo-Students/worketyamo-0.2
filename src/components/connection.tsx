@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./subponents/Header";
 import FormInput from "./subponents/FormInput";
 import { Link } from "react-router-dom";
 import Progression from "./subponents/Progression";
