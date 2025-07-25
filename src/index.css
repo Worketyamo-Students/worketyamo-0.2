@@ -1,5 +1,26 @@
 @import "tailwindcss";
+
 @theme {
   --color-text: #8080808c;
   --color-timeline: #fafafa;
+}
+/* @utility {
+} */
+/* Base styles can be added here or use Tailwind's preflight */
+/* @components {
+} */
+@layer utilities {
+  .siderbar {
+    @apply hover:shadow-gray-500 hover:shadow;
+  }
+
+  .active .siderbar {
+    @apply border-black;
+  }
+  .active .siderbar {
+    @apply invert-0;
+  }
+  .active div h3 {
+    @apply text-black;
+  }
 }

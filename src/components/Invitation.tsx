@@ -36,7 +36,7 @@ const Invitation = () => {
         </Link>
       </div>
       <Footer />
-      <div className="flex gap-1.5 pt-50 px-4">
+      <div className="flex gap-1.5 pt-50 px-4 lg:pt-26">
         <Progression color="bg-[#FFA273] opacity-60" />
         <Progression color="bg-[#FFA273]" />
         <Progression color=" from-[#FFA273]  bg-linear-to-r to-[#00539C]" />
