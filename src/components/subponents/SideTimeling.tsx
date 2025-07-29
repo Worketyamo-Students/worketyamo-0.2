@@ -4,8 +4,8 @@ import Timelineline from "./Timeline-line";
 import TimeLineFooter from "./TimeLineFooter";
 const SideTimeling = () => {
   return (
-    <div className=" bg-[#00539C0A] flex-1 flex flex-col items-baseline px-20  gap-20 pt-[28px] h-[100%] lg:gap-10">
-      <img src="/IT-logo.svg" alt="" className="w-[100px] h-[100px] " />
+    <div className=" bg-[#00539C0A] flex-1 flex flex-col items-baseline pl-10 pr-25 gap-20 pt-[1.75rem] h-[100%] lg:gap-10 ">
+      <img src="/IT-logo.svg" alt="" className="w-[6.25rem] h-[6.25rem] " />
       <div>
         <Timeline
           path="/"

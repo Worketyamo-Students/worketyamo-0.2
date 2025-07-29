@@ -7,7 +7,7 @@ import Progression from "./subponents/Progression";
 
 const OnBoarding = () => {
   return (
-    <div className="pt-[150px] px-[33px] pb[41px] lg:px-[0]">
+    <div className="pt-[2rem] px-[33px] pb[41px] lg:px-[0]">
       <Header
         text="Bienvenue"
         paragraph="Plus que 3 petites minutes ........"
@@ -30,7 +30,7 @@ const OnBoarding = () => {
         />
       </Link>
       <Footer />
-      <div className="flex gap-1.5 pt-50 px-4 lg:pt-24">
+      <div className="flex gap-1.5 pt-46 px-4 lg:pt-22 lg:max-xl:pt-27">
         <Progression color="bg-[#FFA273] opacity-60" />
         <Progression color="bg-[#FFA273]" />
         <Progression color=" from-[#FFA273]  bg-linear-to-r to-[#00539C]" />

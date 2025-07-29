@@ -8,7 +8,7 @@ function Connection() {
       <div className="hidden lg:inline w-45/100 ">
         <SideTimeling />
       </div>
-      <div className="lg:flex lg:flex-col lg:justify-center lg:px-[10rem] lg:w-55/100 hidden  pb-20 ">
+      <div className="lg:flex lg:flex-col lg:justify-center lg:px-[6rem] lg:w-55/100 hidden  pb-20 ">
         <Outlet></Outlet>
       </div>
       <LoginForm hidden="lg:hidden" path="/verirification-otp" />

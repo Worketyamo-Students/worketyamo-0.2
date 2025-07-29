@@ -5,7 +5,7 @@ type propsTypes = {
 };
 const Header: React.FC<propsTypes> = ({ text, paragraph }) => {
   return (
-    <div className="flex flex-col items-center gap-6">
+    <div className="flex flex-col items-center gap-6 lg:gap-2">
       <img
         src="/worketyamo.svg"
         alt="work et yamo logo "
@@ -18,7 +18,7 @@ const Header: React.FC<propsTypes> = ({ text, paragraph }) => {
       />
       <div className="text-center">
         <h1 className="font-bold text-xl">{text}</h1>
-        <p className="text-lg text-gray-300">{paragraph}</p>
+        <p className="text-lg text-gray-300 ">{paragraph}</p>
       </div>
     </div>
   );

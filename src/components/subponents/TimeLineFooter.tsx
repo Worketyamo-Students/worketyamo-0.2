@@ -10,7 +10,7 @@ const TimeLineFooter = ({ path }: prop) => {
     navigate(-1);
   }
   return (
-    <div className="flex justify-between w-full text-[#00539C] pt-65 ">
+    <div className="flex justify-between w-full text-[#00539C] pt-[7rem]  lg:max-xl:pt-[10rem] ">
       <div onClick={handleNavigation} className="flex gap-4">
         <img src="/arrow.svg" alt="" /> Vos details
       </div>

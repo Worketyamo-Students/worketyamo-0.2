@@ -8,7 +8,7 @@ import Progression from "./subponents/Progression";
 
 const Invitation = () => {
   return (
-    <div className="pt-[95px] px-[33px] pb[41px]">
+    <div className="pt-[1rem] px-[33px] pb[41px]">
       <Header
         text="Finalisation"
         paragraph="Inviter 04 amis pour finaliser l’inscription "
@@ -36,7 +36,7 @@ const Invitation = () => {
         </Link>
       </div>
       <Footer />
-      <div className="flex gap-1.5 pt-50 px-4 lg:pt-26">
+      <div className="flex gap-1.5 pt-45 px-4 lg:pt-15 lg:max-xl:pt-20">
         <Progression color="bg-[#FFA273] opacity-60" />
         <Progression color="bg-[#FFA273]" />
         <Progression color=" from-[#FFA273]  bg-linear-to-r to-[#00539C]" />

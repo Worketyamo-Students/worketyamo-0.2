@@ -7,7 +7,7 @@ import Footer from "./subponents/Footer";
 import Progression from "./subponents/Progression";
 const Otp = () => {
   return (
-    <div className="pt-[150px] lg:px-14 px-[33px] pb[41px]  ">
+    <div className="pt-[5rem] lg:px-14 px-[33px] pb[41px]  ">
       <Header
         text="Verification OTP"
         paragraph="Rentrez vos infos pour vous connecter ."
@@ -28,7 +28,7 @@ const Otp = () => {
       <div>
         <Footer />
       </div>
-      <div className="flex gap-1.5 pt-80 px-4 lg:pt-70 ">
+      <div className="flex gap-1.5 pt-77 px-4 lg:pt-48  lg:max-xl:pt-53">
         <Progression color="bg-[#FFA273] opacity-60" />
         <Progression color="bg-[#FFA273]" />
         <Progression color="bg-gray-400" />

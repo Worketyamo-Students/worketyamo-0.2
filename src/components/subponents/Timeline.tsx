@@ -20,17 +20,17 @@ const Timeline: React.FC<propsTypes> = ({
         <div className="flex gap-3 absolute z-2 cursor-pointer ">
           <div
             className={`border-1
-              border-gray-300 bg-white  rounded-2xl  h-[50px] w-[59px]  flex justify-center items-center siderbar`}
+              border-gray-300 bg-white  rounded-2xl  h-[3.2rem] w-[3.7rem]  flex justify-center items-center siderbar`}
           >
             <img
               src={img}
               alt={label}
-              className={`h-[32px] w-[25px]  invert-50`}
+              className={`h-[2rem] w-[1.6rem]  invert-50`}
             />
           </div>
           <div>
             <h3 className={`font-bold "text-black" : text-text`}>{label}</h3>
-            <p className="pt-2 text-text">{text}</p>
+            <p className="pt-2 text-text lg:text-[0.92rem]">{text}</p>
           </div>
         </div>
       </NavLink>

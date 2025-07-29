@@ -15,7 +15,7 @@ function App() {
         <Route path="/onboardings" element={<OnBoarding />} />
       </Route>
       <Route path="*" element={<NotFound />} />
-      <Route path="/verification" element={<Otp />} />
+      <Route path="/verirification-otp" element={<Otp />} />
       <Route path="/invitation" element={<Invitation />} />
       <Route path="/onboarding" element={<OnBoarding />} />
     </Routes>

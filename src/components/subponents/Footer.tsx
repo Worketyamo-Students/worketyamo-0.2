@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <p className=" text-[#71717A]  text-center text-[15px] mt-10">
+      <p className=" text-[#71717A]  text-center text-[15px] mt-10 lg:mt-5">
         By clicking continue, you agree to our{" "}
         <a href="" className="underline">
           Terms of Service

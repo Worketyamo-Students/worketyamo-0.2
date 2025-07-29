@@ -14,12 +14,14 @@ interface LoginFormProps {
 const LoginForm = ({ hidden, path }: LoginFormProps) => {
   return (
     <>
-      <div className={` pt-[95px] px-[33px] pb[41px] lg:px-[0]  ${hidden}`}>
+      <div
+        className={` pt-[2.8rem]  lg:pt-[3rem] px-[2.1rem] pb-[2.6rem] lg:px-[0]  lg: ${hidden}`}
+      >
         <Header
           text="Creation de compte"
           paragraph="Rentrez vos infos pour creer votre compte ."
         />
-        <div className="px-3 pt-10 flex flex-col gap-7">
+        <div className="px-3 pt-10  lg:pt-3 flex flex-col gap-7">
           <FormInput label="Email" placeholder="abc@gmail.com" type="email" />
           <FormInput
             label="Mot de passe"
@@ -27,16 +29,16 @@ const LoginForm = ({ hidden, path }: LoginFormProps) => {
             type="password"
           />
         </div>
-        <div className="flex gap-1.5 pt-3 px-4 lg:hidden">
+        <div className="flex gap-1.5 pt-3  px-4 lg:hidden">
           <Progression color="bg-[#00539C]" />
           <Progression color="bg-gray-400" />
           <Progression color="bg-gray-400" />
           <Progression color="bg-gray-400" />
         </div>
-        <div className="pt-7 pr-1.5 ">
+        <div className="pt-7 pr-1.5 lg:pt-5 ">
           <Divider />
         </div>
-        <div className="pt-10 pr-1.5 px-4">
+        <div className="pt-10 pr-1.5 px-4 lg:pt-5">
           <Btn
             text="Github"
             border="border-1 border-gray-200"
@@ -70,7 +72,7 @@ const LoginForm = ({ hidden, path }: LoginFormProps) => {
         <div>
           <Footer />
         </div>
-        <div className="flex gap-1.5 pt-15 px-4">
+        <div className="flex gap-1.5 pt-15 px-4 lg:pt-10">
           <Progression color="bg-[#FFA273]" />
           <Progression color="bg-gray-400" />
           <Progression color="bg-gray-400" />
